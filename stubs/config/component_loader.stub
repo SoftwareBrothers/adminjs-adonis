@@ -1,0 +1,8 @@
+{{{
+  exports({ to: app.makePath('app/admin/component_loader.ts') })
+}}}
+import { ComponentLoader } from 'adminjs'
+
+const componentLoader = new ComponentLoader()
+
+export default componentLoader
