@@ -9,7 +9,6 @@ env:
 jobs:
   test-and-publish:
     name: Test & Publish
-    needs: test
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
