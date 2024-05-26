@@ -53,7 +53,8 @@ export const databaseTypeToAdminType: TypeConverter = (columnType: string) => {
     case 'datetime':
     case 'timestamp':
       return 'datetime'
-
+    case 'uuid':
+      return 'uuid'
     default:
       // eslint-disable-next-line no-console
       console.warn(`Unexpected type: ${columnType} fallback to string`)
