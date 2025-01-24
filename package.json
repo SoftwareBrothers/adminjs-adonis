@@ -65,7 +65,7 @@
   },
   "peerDependencies": {
     "@adonisjs/core": "^6.2.2",
-    "@adonisjs/lucid": "^20.1.0",
+    "@adonisjs/lucid": "^21.0.1",
     "@adonisjs/session": "^7.1.1",
     "reflect-metadata": "^0.2.1"
   },
